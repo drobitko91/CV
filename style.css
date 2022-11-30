@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,200;8..144,300&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: #0f141e;
+    margin: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto Serif', serif;
+    line-height: 25px;
+
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(79, 31, 124);
+}
+
+a:visited {
+    color: fuchsia;
+}
+
+.box > div {
+    float: left;
+    height: 1050px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    box-sizing: content-box;
+}
+
+h1 {
+    color: rgb(42, 42, 192);
+    
+}
+
+.head::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.head > div {
+    float: left;
+    height: 250px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+} 
+
+.name {
+    background-color: rgb(105, 181, 248);
+    width: 65%; 
+    padding-top: 25px;
+    padding-left: 10px;
+
+}
+
+.photo {
+    /* background-color:rgb(153, 114, 189); */
+    width: 30%;
+    padding-top: 25px;
+    margin-right: 10px;
+
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+    display: block;
+    margin-left: auto;
+    margin-right: auto  
+}
+
+h2 {
+    margin: 0;
+    color: rgb(49 49 153);
+}
+
+
+
+.block {
+    padding: 10px;
+    margin: 25px 0;
+    
+}
+
+.summary {
+    margin: 25px 0 25px 0;
+    padding: 10px;
+   
+}
+
+
+.box::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.class1 {
+    background-color:rgb(199, 157, 238);
+    width: 30%;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.class2 {
+    background-color: aliceblue;
+    width: 65%;  
+    border-radius: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(176, 176, 243);
+    padding: 5%;
+    border-radius: 10px;
+    width: 96%;
+}
+
+
+label {
+    padding-right: 10px;
+    width: 100px;
+    display: inline-block;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    margin-left: 286px;
+}
